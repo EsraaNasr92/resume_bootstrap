@@ -91,7 +91,7 @@ p{
 }
 
 /* About section */
-#about, #resume{
+#about, #resume, #testimonial{
   background: var(--section-bg);
 }
 .about-me {
@@ -214,4 +214,19 @@ p{
 }
 .education-section:last-child {
     margin-bottom: 0;
+}
+
+/* testimonial section */
+.testimonial .carousel-inner .carousel-item{
+  color: #000;
+}
+#testimonial .carousel-item{
+  height: 45vh;
+}
+.author {
+    color: #566366;
+    text-transform: uppercase;
+}
+#testimonial .carousel-indicators li{
+    background-color: #2ecc71;
 }
