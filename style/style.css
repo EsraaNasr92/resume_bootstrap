@@ -313,7 +313,7 @@ label {
   text-transform: uppercase;
 }
 #copyright{
-  width: 22%;
+  width: 32%;
   margin: 0 auto;
 }
 .social a {
@@ -327,5 +327,5 @@ label {
     font-size: 22px;
 }
 .social {
-    margin: 0 auto;
+    margin: 20px auto 0;
 }
