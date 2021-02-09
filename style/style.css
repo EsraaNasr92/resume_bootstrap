@@ -359,7 +359,7 @@ label {
     height: 70vh;
   }
   #testimonial .carousel-caption {
-    top: 0;
+    top: 10%;
   }
   #copyright{
     width: 100%;
