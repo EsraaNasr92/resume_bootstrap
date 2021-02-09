@@ -37,15 +37,13 @@ p{
     bottom: 10px;
 }
 .carousel-caption h1{
-  font-size: 60px;
+  font-size: 3rem;
   color: #fff;
   border-top: 3px solid #fff;
   border-bottom: 3px solid #fff;
   margin-bottom: 50px;
 }
 .carousel-caption .more{
-  border: 3px solid #fff;
-  width: 24%;
   margin: 0 auto;
   padding: 14px 0;
 }
@@ -54,7 +52,10 @@ p{
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
-  display: block;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 3px solid #fff;
+  padding: 10px 40px;
 }
 /* NavBar style */
 #navbar {
@@ -84,7 +85,7 @@ p{
 }
 /* Features section */
 #features, #skills, #education, #work, #portfolio{
-  margin: 100px auto;
+  margin: 6rem auto;
 }
 #features h2{
   padding-bottom: 30px;
@@ -102,6 +103,7 @@ p{
 }
 .left-img {
     padding-left: 0 !important;
+    padding-right: 0;
 }
 .left-text {
     display: flex;
@@ -127,17 +129,19 @@ p{
     padding-bottom: 30px;
 }
 .left-skills .more {
-    margin-top: 50px;
+    margin: 50px 0;
 }
 .left-skills .more a {
     color: #2dcb71;
     display: block;
-    border: 2px solid;
     padding: 15px;
-    width: 34%;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px 25px !important;
+    border: 3px solid;
 }
 .right-skills {
     text-transform: uppercase;
@@ -329,4 +333,35 @@ label {
 }
 .social {
     margin: 20px auto 0;
+}
+
+@media only screen and (max-width: 600px){
+  .carousel-caption {
+    top: 0;
+  }
+    #features, #skills, #education, #work, #portfolio{
+    margin: 2rem auto;
+  }
+  #features h2 {
+    padding-bottom: 10px;
+  }
+  .about-me{
+    padding: 30px 30px 0 30px;
+  }
+  .about-me h4{
+    font-size: 1rem;
+  }
+  .resume_section{
+    width: 100%;
+    text-align: center;
+  }
+  #testimonial .carousel-item{
+    height: 70vh;
+  }
+  #testimonial .carousel-caption {
+    top: 10%;
+  }
+  #copyright{
+    width: 100%;
+  }
 }
