@@ -311,6 +311,7 @@ label {
 }
 .copyright p{
   text-transform: uppercase;
+  margin: 0 auto;
 }
 #copyright{
   width: 32%;
