@@ -337,7 +337,7 @@ label {
 
 @media only screen and (max-width: 600px){
   .carousel-caption {
-    top: 0;
+    top: 10%;
   }
     #features, #skills, #education, #work, #portfolio{
     margin: 2rem auto;
@@ -359,7 +359,7 @@ label {
     height: 70vh;
   }
   #testimonial .carousel-caption {
-    top: 10%;
+    top: 0;
   }
   #copyright{
     width: 100%;
